@@ -1,10 +1,14 @@
 import requests
-import json
+ 
+url = 'https://api.spaceagelabs.com.sg/admin/login/?next=/admin/'
+client = requests.session()
+# Retrieve the CSRF token first
+csrf = client.get(url).cookies['csrftoken']
 
-payload = {"username": "demo@spaceagelabs.com.sg", "password": "demo1234"}
-r = requests.post("https://api.spaceagelabs.com.sg/v2/login", data=payload)
-out = json.loads(r.content.decode('utf-8'))
+print(csrf)
 
-head = {'Authorization': 'token {}'.format(out['token'])}
-response = requests.get("https://reye.spaceagelabs.com.sg/#/login", headers = head)
-print(response.text)
+login_data = dict(username='saladmin', password='Space@GE;labs', csrfmiddlewaretoken=csrf, next='/')
+r = client.post(url, data=login_data, headers=dict(Referer=url))
+ 
+# Check if it worked?
+print(r.text)
