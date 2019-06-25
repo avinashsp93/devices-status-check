@@ -1,49 +1,36 @@
-Devices Count,14
+Devices Count,18
 "
 "
 Device ID,Name,Status,Last Seen
 04297ddc-8f50-4a51-9ea3-f5973d815f13,SNRI_080716,Inactive,"Monday, May 13, 2019 06:48:21"
-1c87537a-e055-414b-bc06-1777fe725fe4,SNRI_081685,Inactive,"Thursday, June 13, 2019 09:34:15"
+0befa5d3-03b2-428f-9530-699527cbb9f5,SAL_3F6C9B,Inactive,"Sunday, June 16, 2019 11:04:36"
+1c87537a-e055-414b-bc06-1777fe725fe4,SNRI_081685,Inactive,"Monday, June 24, 2019 07:38:04"
 1c9bbcc5-f8fa-418a-b63f-66accf909224,SSRI_3F63F8,Inactive,Not Known
 209a8f91-2d3f-4c12-8e14-92df60ec455a,SSRI_3FE4D2,Inactive,Not Known
+290e1f64-4fc4-4ed5-9d24-4a32e7a343a9,SAL_3FF05C,Active,"Tuesday, June 25, 2019 12:30:38"
 37fd339a-a237-43d0-a44f-3f8278809c4a,SSRI_3FF24D,Inactive,Not Known
-3faf70b0-9b0f-4e49-be42-8e5823d3ac22,SSRI_3FE4C1,Inactive,"Friday, June 14, 2019 01:32:32"
+3faf70b0-9b0f-4e49-be42-8e5823d3ac22,SSRI_3FE4C1,Active,"Tuesday, June 25, 2019 12:30:52"
+461ec947-8a92-4112-a1f8-fa6d0ff89e3a,SNRI_080829,Inactive,Not Known
 5e82c77b-4915-48aa-a816-c9b0706c6c81,SNRI_081203,Inactive,Not Known
-6a8b93ba-7862-4cc4-af0a-69224edb3ba9,SNRI_081729,Inactive,"Friday, June 14, 2019 03:53:19"
 bb1be57a-c814-4d3d-a23c-ea30871a9cb3,SNRI_080742,Inactive,"Thursday, May 23, 2019 05:09:57"
-c0d65e7b-be00-4e03-8439-0b2fcd1ce3e2,SSRI_3FE523,Active,"Friday, June 14, 2019 12:20:21"
+c0d65e7b-be00-4e03-8439-0b2fcd1ce3e2,SSRI_3FE523,Active,"Tuesday, June 25, 2019 12:29:05"
+c8576ae3-6c43-4166-bf1a-e26ed890ae51,SNRI_080792,Inactive,"Thursday, June 20, 2019 05:40:15"
 c8dc3ccf-e741-4505-b27f-39f124f61c00,SNRI_081175,Inactive,Not Known
+e0e96085-5822-455f-83d9-d402d55e97b6,SNRI_080826,Inactive,"Tuesday, June 18, 2019 05:41:15"
 eadf49cd-cffa-4399-93cb-33f756654e30,SSRI_3FEF1B,Inactive,Not Known
-f5cc7db0-e1bb-48af-a413-dd87563d5c88,SNRI_080819,Inactive,"Sunday, May 26, 2019 03:02:36"
-fb13078b-6222-478f-b11e-eaf20f63cbed,SNRI_080791,Inactive,"Friday, June 07, 2019 04:47:33"
+f5cc7db0-e1bb-48af-a413-dd87563d5c88,SNRI_080819,Inactive,"Wednesday, June 19, 2019 02:33:09"
+fb13078b-6222-478f-b11e-eaf20f63cbed,SNRI_080791,Active,"Tuesday, June 25, 2019 12:15:50"
 "
 "
 Devices Alarms Count,2004
 "
 "
 Device ID,Created At,Cleared At
-c317d326-4184-4154-893f-c061914907bb,"Thursday, June 13, 2019 07:39:30",Not Known
-283ce7ef-ea7f-48fd-9be5-8a566c720362,"Wednesday, June 12, 2019 11:21:25","Thursday, June 13, 2019 04:30:35"
-d8d7078a-a888-40b6-beb4-315d36d8e3f4,"Wednesday, June 12, 2019 07:35:24","Wednesday, June 12, 2019 07:35:34"
-f8000690-170b-47f0-a63d-d68e2dec19f3,"Wednesday, June 12, 2019 03:43:24","Wednesday, June 12, 2019 03:43:31"
-1c8ae701-2cde-425f-aa22-2481dd3fd854,"Wednesday, June 12, 2019 12:01:22","Wednesday, June 12, 2019 01:42:25"
-272ab599-2cb1-445a-8b0a-53b68313eb50,"Tuesday, June 11, 2019 09:24:18","Tuesday, June 11, 2019 11:11:04"
-9a82817d-ff72-49bf-8757-c20a9c2afbc9,"Tuesday, June 11, 2019 04:41:17","Tuesday, June 11, 2019 05:01:21"
-7f9d28dc-e485-449e-90b8-73b862e5a490,"Tuesday, June 11, 2019 03:20:17","Tuesday, June 11, 2019 03:30:34"
-9d04aee0-b0bf-4769-bab9-9e7b457582de,"Tuesday, June 11, 2019 01:29:16","Tuesday, June 11, 2019 02:19:53"
-724e04fc-98cb-4fc4-9ce5-39a6b6d9937d,"Monday, June 10, 2019 10:01:12","Tuesday, June 11, 2019 12:28:54"
-2f54cd1c-23fb-4843-b080-d1a99920ff92,"Monday, June 10, 2019 08:50:12","Monday, June 10, 2019 09:10:43"
-02a8c9d0-d15f-466c-a8bc-0aaa9cd84e4d,"Monday, June 10, 2019 07:50:11","Monday, June 10, 2019 08:10:11"
 "
 "
-Feed Alarms Count,5
+Feed Alarms Count,25
 "
 "
 Device ID,Created At,Cleared At
-b74affd5-b206-4d46-9364-6587199623cf,"Sunday, June 09, 2019 08:41:02",Not Known
-7f5748c4-f5a6-40e3-9983-036e8c913c7a,"Sunday, June 09, 2019 05:58:43","Sunday, June 09, 2019 06:29:10"
-2c4f76fd-b0ba-42e3-88db-5d2b4ae96f8c,"Sunday, June 09, 2019 05:58:43","Sunday, June 09, 2019 06:29:10"
-bc562fd9-23d8-4301-9fc7-a944cfa83da9,"Sunday, June 09, 2019 05:58:43","Sunday, June 09, 2019 06:29:09"
-c61422c1-f9ca-4719-a695-230837f131a5,"Saturday, June 08, 2019 10:01:56","Saturday, June 08, 2019 10:32:21"
 "
 "

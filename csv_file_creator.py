@@ -1,7 +1,7 @@
 import csv
 
-with open('mycsv.csv', 'w', newline='') as f:
+with open('contacts.csv', 'w', newline='') as f:
     thewriter = csv.writer(f)
 
-    thewriter.writerow(['Username', 'Password'])
-    thewriter.writerow(['demo@spaceagelabs.com.sg','demo1234'])
+    thewriter.writerow(['avinashsp93@gmail.com'])
+    thewriter.writerow(['deepthidesaitwinkle@gmail.com'])

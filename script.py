@@ -2,6 +2,20 @@ import requests
 import json
 import csv
 import datetime
+import smtplib
+import base64
+
+from email.mime.multipart import MIMEMultipart
+from email.mime.text import MIMEText
+from email.mime.base import MIMEBase
+from email.mime.application import MIMEApplication
+from email import encoders
+from string import Template
+
+def read_template(filename):
+    with open(filename, 'r', encoding='utf-8') as template_file:
+        template_file_content = template_file.read()
+    return Template(template_file_content)
 
 def printable_date_format(date_object):
     date_string = datetime.datetime.strptime(date_object[0:date_object.index('.')], '%Y-%m-%dT%H:%M:%S').strftime("%A, %B %d, %Y %I:%M:%S")
@@ -101,9 +115,36 @@ with open('status.csv', 'a', newline='') as f:
 
 out_fp.close()
 
+s = smtplib.SMTP(host='smtp-mail.outlook.com', port=587)
+s.starttls()
+s.login('', '') # email id and password of the sender mail to be typed inside the single quotations respectively
 
+with open('contacts.csv', newline='') as csvfile:
 
-results = []
-results = json.loads(r.text)
+    reader = csv.reader(csvfile, delimiter=' ', quotechar='|')
+    # Loop through the message recepients, put all the recepients list in contacts.csv
+    for row in reader:
+        msg = MIMEMultipart()
 
+        msg['From'] = '' # Add email address that sends out the report
+        msg['To'] = row[0] # Recepients
+        msg['Subject'] = 'Device Status Results'
 
+        message_template = read_template('message.txt')
+        message = message_template.substitute('name.title()')
+        msg.attach(MIMEText(message, 'plain'))
+
+        file_attachment = open('status.csv', 'rb')
+        p = MIMEBase('application', 'octet-stream')
+        p.set_payload(file_attachment.read())
+        encoders.encode_base64(p)
+
+        p.add_header('Content-Disposition', "attachment; filename=status.csv")
+
+        msg.attach(p)
+
+        s.send_message(msg)
+
+        print("Mail sent successfully to " + row[0])
+
+        del msg
