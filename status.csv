@@ -1,36 +1,50 @@
-Devices Count,18
+Organization Name,ananth
 "
 "
-Device ID,Name,Status,Last Seen
-04297ddc-8f50-4a51-9ea3-f5973d815f13,SNRI_080716,Inactive,"Monday, May 13, 2019 06:48:21"
-0befa5d3-03b2-428f-9530-699527cbb9f5,SAL_3F6C9B,Inactive,"Sunday, June 16, 2019 11:04:36"
-1c87537a-e055-414b-bc06-1777fe725fe4,SNRI_081685,Inactive,"Monday, June 24, 2019 07:38:04"
-1c9bbcc5-f8fa-418a-b63f-66accf909224,SSRI_3F63F8,Inactive,Not Known
-209a8f91-2d3f-4c12-8e14-92df60ec455a,SSRI_3FE4D2,Inactive,Not Known
-290e1f64-4fc4-4ed5-9d24-4a32e7a343a9,SAL_3FF05C,Active,"Tuesday, June 25, 2019 12:30:38"
-37fd339a-a237-43d0-a44f-3f8278809c4a,SSRI_3FF24D,Inactive,Not Known
-3faf70b0-9b0f-4e49-be42-8e5823d3ac22,SSRI_3FE4C1,Active,"Tuesday, June 25, 2019 12:30:52"
-461ec947-8a92-4112-a1f8-fa6d0ff89e3a,SNRI_080829,Inactive,Not Known
-5e82c77b-4915-48aa-a816-c9b0706c6c81,SNRI_081203,Inactive,Not Known
-bb1be57a-c814-4d3d-a23c-ea30871a9cb3,SNRI_080742,Inactive,"Thursday, May 23, 2019 05:09:57"
-c0d65e7b-be00-4e03-8439-0b2fcd1ce3e2,SSRI_3FE523,Active,"Tuesday, June 25, 2019 12:29:05"
-c8576ae3-6c43-4166-bf1a-e26ed890ae51,SNRI_080792,Inactive,"Thursday, June 20, 2019 05:40:15"
-c8dc3ccf-e741-4505-b27f-39f124f61c00,SNRI_081175,Inactive,Not Known
-e0e96085-5822-455f-83d9-d402d55e97b6,SNRI_080826,Inactive,"Tuesday, June 18, 2019 05:41:15"
-eadf49cd-cffa-4399-93cb-33f756654e30,SSRI_3FEF1B,Inactive,Not Known
-f5cc7db0-e1bb-48af-a413-dd87563d5c88,SNRI_080819,Inactive,"Wednesday, June 19, 2019 02:33:09"
-fb13078b-6222-478f-b11e-eaf20f63cbed,SNRI_080791,Active,"Tuesday, June 25, 2019 12:15:50"
+Devices
+Name,Alias,Status,Last Seen
+SSRI_3F595E,b'SSRI_3F595E',Active,"Wednesday, July 03, 2019 10:41:17"
+SSRI_3FEC47,b'SSRI_3FEC47',Active,"Wednesday, July 03, 2019 10:43:40"
+SNRI_080836,b'Schneider',Inactive,"Wednesday, June 26, 2019 06:01:06"
+SSRI_3FE542,b'SSRI_3FE542',Active,"Wednesday, July 03, 2019 10:48:01"
+SSRI_3F633A,b'SSRI_3F633A',Active,"Wednesday, July 03, 2019 10:39:49"
+SSRI_3FEC51,b'SSRI_3FEC51',Active,"Wednesday, July 03, 2019 10:44:36"
+SSRI_3FE416,b'SSRI_3FE416',Active,"Wednesday, July 03, 2019 10:43:34"
+SSRI_3FEC8D,b'SSRI_3FEC8D',Active,"Wednesday, July 03, 2019 10:44:51"
+SSRI_3FEB2C,b'SSRI_3FEB2C',Inactive,"Tuesday, July 02, 2019 11:49:20"
+SSRI_3FEBB7,b'SSRI_3FEBB7',Active,"Wednesday, July 03, 2019 10:41:54"
+SSRI_3FEC4A,b'SRI_3FEC4A',Inactive,"Wednesday, July 03, 2019 05:05:12"
+SSRI_3F60C8,b'SSRI_3F60C8',Active,"Wednesday, July 03, 2019 10:40:45"
+SSRI_3F6401,b'SSRI_3F6401',Inactive,"Monday, July 01, 2019 10:51:43"
+SSRI_3FEB37,b'SSRI_3FEB37',Active,"Wednesday, July 03, 2019 10:42:10"
+SSRI_3FEB43,b'SSRI_3FEB43',Active,"Wednesday, July 03, 2019 10:43:07"
+SSRI_3FEB2A,b'SSRI_3FEB2A',Active,"Wednesday, July 03, 2019 10:42:01"
+SSRI_3FEB39,b'SSRI_3FEB39',Inactive,"Wednesday, July 03, 2019 04:53:40"
+SSRI_3FEC4B,b'SSRI_3FEC4B',Active,"Wednesday, July 03, 2019 10:43:12"
+SSRI_3FE53B,b'SSRI_3FE53B',Active,"Wednesday, July 03, 2019 10:42:57"
+SSRI_3FEBC8,b'SSRI_3FEBC8',Inactive,"Tuesday, July 02, 2019 11:49:13"
+SSRI_3FE2FF,b'SSRI_3FE2FF',Active,"Wednesday, July 03, 2019 10:48:09"
 "
 "
-Devices Alarms Count,2004
+Devices Health of Organization,71.42857142857143
 "
 "
-Device ID,Created At,Cleared At
+Devices Alarms
+Device Name,Created At,Cleared At
 "
 "
-Feed Alarms Count,25
+Feed Alarms
+Device Name,Created At,Cleared At
+SSRI_3FEC4A,"Wednesday, July 03, 2019 09:04:27","Wednesday, July 03, 2019 09:04:33"
+SSRI_3FEC4A,"Wednesday, July 03, 2019 09:03:50","Wednesday, July 03, 2019 09:03:59"
+SSRI_3FE2FF,"Wednesday, July 03, 2019 02:47:51","Wednesday, July 03, 2019 02:47:58"
 "
 "
-Device ID,Created At,Cleared At
+"
+"
+"
+"
+"
+"
 "
 "
